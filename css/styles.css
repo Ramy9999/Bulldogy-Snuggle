@@ -1,0 +1,214 @@
+/*HTML Selectors*/
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*body{
+  margin-right: 0;
+  text-align: center;
+}
+*/
+/*Title Section*/
+#title {
+  background-color: #20c997;
+}
+
+.mainfirstheader {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #fcfafa;
+  margin-top: 3.5rem;
+  margin-left: 1rem;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/*
+.downloadbuttoniphone{
+  background-color: dark;
+}
+.downloadbuttonandroid{
+  background-color: light;
+}
+*/
+.navbar-brand {
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+.pawimage {
+  color: #eda593;
+}
+
+.snuggletitletext {
+  color: #d04925;
+}
+
+.iphonedogimage {
+  transform: rotate(25deg);
+  width: 100%;
+  margin-top: 4rem;
+  margin-left: 2rem;
+  position: absolute;
+  right: 2%;
+  top: 20%;
+}
+
+/*Use Media Query Breakpoints to make website responsive acrross mobile,tablet and computer and viewport is the size of the browser screen or apps screen itself could be smaller than the actuall size of the device running*/
+@media (max-width:991px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphonedogimage {
+    position: static;
+    transform: rotate(360deg);
+    padding-right: 70px;
+  }
+}
+
+/*You can group classes together in css by: .class1,class2,class3,class4,etc{}*/
+#navbarfirstmenu {
+  padding: 3% 30% 3% 20%;
+  margin-top: 3.5%;
+  font-size: 1.2rem;
+}
+
+/*Features Section*/
+.secondcontainer {
+  padding: 50px 50px;
+}
+
+.secconpar {
+  padding: 0 5%;
+}
+
+/*Images*/
+.circ {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.circ:hover {
+  color: pink;
+}
+
+.bullsy {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.bullsy:hover {
+  color: pink;
+}
+
+.hearty {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.hearty:hover {
+  color: pink;
+}
+
+#features {
+  position: relative;
+  background-color: white;
+}
+
+.seccol {
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+/*#section .classname {} targets only that class in that section or another class like: parentclassorselector childclassorselector {}; with classes put . at the beginning and sections and Ids put # at the beginning*/
+/*seclector./#selector2 is another type of combining more than one css selector for example h1#title, an h1 with id called title not all h1 elements*/
+/*Testimonial section*/
+#testimonials {
+  text-align: center;
+  background-color: #ffb997;
+  color: #fcfafa;
+}
+
+.carousel-item {
+  padding: 10% 18%;
+}
+
+.testimonialimage {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+/*Press Section*/
+#press {
+  background-color: #ffb997;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.pressimage {
+  width: 15%;
+  margin: 20px 20px;
+}
+
+/*width reduces all the size of an image*/
+/*Pricing Section*/
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricingcol {
+  padding: 3% 2%;
+}
+
+/*Call to action Section*/
+#cta {
+  text-align: center;
+  background-color: #00a79d;
+  padding: 13% 21%;
+}
+
+.ctaheader {
+  font-family: "Montserrat-Black"
+    font-weight: bold;
+  font-size: 2.5rem;
+  color: #fcfafa;
+  margin-bottom: 6%
+}
+
+.ctabutton {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+/*Footer Section*/
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  color: #99b19c;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 6%;
+}
+
+.footerimage {
+  color: #252525;
+  margin-bottom: 6%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
