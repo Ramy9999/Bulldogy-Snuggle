@@ -71,6 +71,13 @@ body {
   #title {
     text-align: center;
   }
+  .navbar-toggler-icon{
+    width: 4rem;
+    height: 4rem;
+  }
+  .nav-item{
+    font-size: 1.5rem;
+  }
 
   .iphonedogimage {
     position: static;
